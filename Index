@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Clube Megão Saldão — descontos, ofertas e benefícios todos os dias." />
+  <title>Clube Megão Saldão</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Clube Megão Saldão">
+        <span class="brand-megao">Megão</span><span class="brand-saldao">Saldão</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navegação principal">
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#beneficios">Benefícios</a>
+        <a href="#planos">Planos</a>
+        <a href="#duvidas">Dúvidas</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="btn btn-outline" data-open-login><span class="icon-user">♙</span> Entrar</button>
+        <button class="btn btn-red" data-open-signup>Adquirir o plano</button>
+      </div>
+      <button class="menu-toggle" aria-label="Abrir menu" data-menu-toggle>☰</button>
+    </div>
+    <div class="mobile-menu" data-mobile-menu>
+      <a href="#como-funciona">Como funciona</a><a href="#beneficios">Benefícios</a><a href="#planos">Planos</a><a href="#duvidas">Dúvidas</a>
+      <button class="btn btn-outline" data-open-login>Entrar</button>
+      <button class="btn btn-red" data-open-signup>Adquirir o plano</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="confetti" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-art" aria-label="Ilustração promocional do Clube Megão Saldão">
+          <div class="mascot-illustration">
+            <div class="confetti-piece c1"></div><div class="confetti-piece c2"></div><div class="confetti-piece c3"></div>
+            <div class="mascot-person">👩🏻</div>
+            <div class="shopping-bag"><span>Megão</span><strong>Saldão</strong><div class="bag-gifts">🎁 🧣 📘</div></div>
+          </div>
+        </div>
+        <div class="hero-copy">
+          <div class="club-pill">CLUBE</div>
+          <h1><span>Megão</span><strong>Saldão</strong></h1>
+          <div class="advantage-badge">MAIS<br>VANTAGENS<br>PARA VOCÊ<br>TODO DIA!</div>
+          <p>Descontos exclusivos, ofertas especiais<br class="desktop-only"> e muitos benefícios em um só clube!</p>
+          <button class="btn hero-cta" data-open-signup>Adquirir ao plano <span>→</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefit-strip" id="beneficios">
+      <div class="container benefit-grid">
+        <article class="mini-benefit"><div class="round-icon red">%</div><div><h3>Descontos<br>exclusivos</h3><p>em diversos produtos<br>e departamentos</p></div></article>
+        <article class="mini-benefit"><div class="round-icon blue">🛒</div><div><h3>Ofertas<br>antecipadas</h3><p>você compra antes<br>de todo mundo</p></div></article>
+        <article class="mini-benefit"><div class="round-icon yellow">☆</div><div><h3>Benefícios<br>especiais</h3><p>em campanhas<br>e eventos</p></div></article>
+        <article class="mini-benefit"><div class="round-icon red">🎁</div><div><h3>Mais economia<br>todo mês</h3><p>para você e sua família</p></div></article>
+      </div>
+    </section>
+
+    <section class="plans-section" id="planos">
+      <div class="container plans-layout">
+        <div class="plans-intro">
+          <h2>Escolha<br>o plano ideal<br><span>para você!</span></h2>
+          <p>Mais vantagens,<br>mais economia,<br>mais para você!</p>
+        </div>
+        <div class="plan-card">
+          <h3>Plano Mensal</h3>
+          <div class="price"><small>R$</small> 14,90 <em>/mês</em></div>
+          <ul><li>Descontos exclusivos</li><li>Ofertas antecipadas</li><li>Campanhas especiais</li><li>Acesso a todas as vantagens</li></ul>
+          <button class="plan-btn" data-plan="mensal">Adquirir plano mensal</button>
+        </div>
+        <div class="plan-card featured">
+          <div class="featured-label">MAIS VANTAGEM</div>
+          <h3>Plano Semestral</h3>
+          <div class="price"><small>R$</small> 79,90</div>
+          <ul><li>Todas as vantagens do clube</li><li>Mais economia</li><li>Ofertas exclusivas</li><li>Acesso a campanhas especiais</li></ul>
+          <button class="plan-btn red-fill" data-plan="semestral">Adquirir plano semestral</button>
+        </div>
+        <div class="plan-card">
+          <h3>Plano Anual</h3>
+          <div class="price"><small>R$</small> 139,90</div>
+          <ul><li>Todas as vantagens do clube</li><li>Mais economia</li><li>Ofertas exclusivas</li><li>Acesso a campanhas especiais</li></ul>
+          <button class="plan-btn" data-plan="anual">Adquirir plano anual</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="how-section" id="como-funciona">
+      <div class="container how-grid">
+        <div class="how-title"><h2>Como funciona?</h2><p>É muito fácil fazer parte do Clube Megão Saldão!</p><span></span></div>
+        <div class="step"><div class="round-icon yellow">♙+</div><div><h3>Faça seu<br>cadastro</h3><p>É rápido e seguro</p></div></div>
+        <div class="arrow">→</div>
+        <div class="step"><div class="round-icon red">▣</div><div><h3>Escolha<br>o seu plano</h3><p>Mensal, semestral<br>ou anual</p></div></div>
+        <div class="arrow">→</div>
+        <div class="step"><div class="round-icon blue">✓</div><div><h3>Aproveite<br>todos os benefícios</h3><p>Descontos, ofertas<br>e muito mais!</p></div></div>
+      </div>
+    </section>
+
+    <section class="faq" id="duvidas">
+      <div class="container"><h2>Dúvidas frequentes</h2>
+        <details><summary>Quem pode fazer parte do clube?</summary><p>O cadastro é destinado a pessoas com 18 anos ou mais, mediante CPF válido, telefone e e-mail.</p></details>
+        <details><summary>Posso escolher qualquer plano?</summary><p>Sim. Você pode selecionar o plano mensal, semestral ou anual durante o cadastro.</p></details>
+        <details><summary>Quando começo a usar os benefícios?</summary><p>Após a conclusão do cadastro e confirmação da contratação do plano.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container footer-inner"><div class="brand footer-brand"><span class="brand-megao">Megão</span><span class="brand-saldao">Saldão</span></div><p>© 2026 Clube Megão Saldão. Todos os direitos reservados.</p></div></footer>
+
+  <div class="modal" data-signup-modal aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-card signup-card" role="dialog" aria-modal="true" aria-labelledby="signupTitle">
+      <button class="modal-close" data-close-modal aria-label="Fechar">×</button>
+      <div class="modal-brand"><span class="brand-megao">Megão</span><span class="brand-saldao">Saldão</span></div>
+      <h2 id="signupTitle">Crie sua conta</h2>
+      <p class="modal-subtitle">Preencha seus dados para entrar no Clube Megão Saldão.</p>
+      <div class="progress"><span class="active"></span><span></span><span></span></div>
+      <form id="signupForm" novalidate>
+        <div class="form-step active" data-step="1">
+          <label>Nome completo<input type="text" name="nome" autocomplete="name" required placeholder="Digite seu nome completo"></label>
+          <div class="form-row">
+            <label>CPF<input type="text" name="cpf" inputmode="numeric" maxlength="14" required placeholder="000.000.000-00"></label>
+            <label>Data de nascimento<input type="date" name="nascimento" required></label>
+          </div>
+          <div class="form-row">
+            <label>Telefone<input type="tel" name="telefone" inputmode="tel" required placeholder="(11) 99999-9999"></label>
+            <label>E-mail<input type="email" name="email" autocomplete="email" required placeholder="voce@email.com"></label>
+          </div>
+          <p class="form-error" data-error></p>
+          <button type="button" class="btn btn-red form-next">Continuar</button>
+        </div>
+        <div class="form-step" data-step="2">
+          <label>Crie uma senha<input type="password" name="senha" autocomplete="new-password" minlength="8" required placeholder="Mínimo de 8 caracteres"></label>
+          <label>Confirme sua senha<input type="password" name="confirmarSenha" autocomplete="new-password" minlength="8" required placeholder="Repita sua senha"></label>
+          <label class="checkline"><input type="checkbox" name="maioridade" required><span>Confirmo que tenho 18 anos ou mais.</span></label>
+          <label class="checkline"><input type="checkbox" name="termos" required><span>Li e aceito os termos de uso e a política de privacidade.</span></label>
+          <p class="form-error" data-error></p>
+          <div class="step-actions"><button type="button" class="btn btn-light form-back">Voltar</button><button type="button" class="btn btn-red form-next">Escolher plano</button></div>
+        </div>
+        <div class="form-step" data-step="3">
+          <h3 class="choose-plan-title">Escolha seu plano</h3>
+          <div class="signup-plans">
+            <label class="signup-plan"><input type="radio" name="plano" value="mensal"><span><b>Mensal</b><strong>R$ 14,90 <small>/mês</small></strong></span></label>
+            <label class="signup-plan popular"><div class="popular-tag">Mais vantagem</div><input type="radio" name="plano" value="semestral" checked><span><b>Semestral</b><strong>R$ 79,90</strong></span></label>
+            <label class="signup-plan"><input type="radio" name="plano" value="anual"><span><b>Anual</b><strong>R$ 139,90</strong></span></label>
+          </div>
+          <p class="form-error" data-error></p>
+          <div class="step-actions"><button type="button" class="btn btn-light form-back">Voltar</button><button type="submit" class="btn btn-red">Finalizar cadastro</button></div>
+        </div>
+      </form>
+      <div class="success-state" data-success>
+        <div class="success-icon">✓</div><h2>Cadastro concluído!</h2><p>Seus dados foram validados e o plano foi selecionado.</p><button class="btn btn-red" data-close-modal>Continuar</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" data-login-modal aria-hidden="true">
+    <div class="modal-backdrop" data-close-login></div>
+    <div class="modal-card login-card" role="dialog" aria-modal="true"><button class="modal-close" data-close-login>×</button><div class="modal-brand"><span class="brand-megao">Megão</span><span class="brand-saldao">Saldão</span></div><h2>Entrar</h2><p class="modal-subtitle">Acesse sua conta do Clube Megão Saldão.</p><form id="loginForm"><label>E-mail<input type="email" required placeholder="voce@email.com"></label><label>Senha<input type="password" required placeholder="Sua senha"></label><button class="btn btn-red" type="submit">Entrar</button></form></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
